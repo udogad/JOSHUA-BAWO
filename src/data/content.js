@@ -3,17 +3,16 @@ export const content = {
   shortName: "OJB",
   title: "Graphic Designer & Product Designer",
   tagline: "I design brands and products people remember.",
-  location: "Lagos, Nigeria",
-  email: "hello@oburohjoshua.com",
+  location: "Benin",
+  email: "oburohbawo@gmail.com",
   resumeUrl: "/resume.pdf",
-  portraitUrl: "/images/portrait.png",
+  portraitUrl: "/images/joshua-oburoh.jpeg",
 
   social: {
-    behance: "https://behance.net/",
-    dribbble: "https://dribbble.com/",
-    linkedin: "https://linkedin.com/",
-    instagram: "https://instagram.com/",
-    twitter: "",
+    linkedin: "https://www.linkedin.com/in/oburoh-joshua-6a0612417",
+    instagram: "https://www.instagram.com/joshuaoburoh",
+    facebook: "https://www.facebook.com/share/1F7fH4AXBu/",
+    tiktok: "https://www.tiktok.com/@bawooburoh0",
   },
 
   navigation: [
@@ -24,7 +23,7 @@ export const content = {
   ],
 
   shortBio:
-    "Lagos-based designer with 5+ years crafting brands and digital products.",
+    "Benin-based designer with 5+ years crafting brands and digital products.",
   longBio:
     "I'm a multidisciplinary designer specialising in brand identity and product design. I help startups and established businesses communicate who they are through thoughtful visuals and seamless digital experiences. Every project starts with deep listening and ends with work that means something.",
   tools: [

@@ -1,18 +1,23 @@
 import {
-  BriefcaseBusiness,
-  Dribbble,
+  Facebook,
   Instagram,
   Linkedin,
-  Twitter,
+  Music2,
 } from "lucide-react";
 import { content } from "../../data/content";
 
 const socialIcons = {
-  behance: BriefcaseBusiness,
-  dribbble: Dribbble,
   linkedin: Linkedin,
   instagram: Instagram,
-  twitter: Twitter,
+  facebook: Facebook,
+  tiktok: Music2,
+};
+
+const socialLabels = {
+  linkedin: "LinkedIn",
+  instagram: "Instagram",
+  facebook: "Facebook",
+  tiktok: "TikTok",
 };
 
 export function SocialLinks({ label = "Social links" }) {
@@ -22,13 +27,17 @@ export function SocialLinks({ label = "Social links" }) {
         .filter(([, url]) => Boolean(url))
         .map(([network, url]) => {
           const Icon = socialIcons[network];
+          if (!Icon) return null;
+
+          const name = socialLabels[network] ?? network;
           return (
             <a
               key={network}
               href={url}
               target="_blank"
               rel="noreferrer"
-              aria-label={network}
+              aria-label={name}
+              title={name}
             >
               <Icon size={18} aria-hidden="true" />
             </a>
@@ -43,7 +52,7 @@ export function Footer() {
     <footer className="footer">
       <div className="shell footer__main">
         <div>
-          <span className="eyebrow">Independent designer · Lagos</span>
+          <span className="eyebrow">Independent designer · {content.location}</span>
           <h2>{content.name}</h2>
         </div>
         <p>{content.tagline}</p>

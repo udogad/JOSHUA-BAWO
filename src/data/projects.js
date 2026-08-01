@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "1",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Brand Identity — Luxe Coffee Co.",
     description:
       "A tactile identity and packaging system for a premium Lagos coffee brand.",
@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     id: "2",
-    url: "https://dribbble.com/",
+    url: "",
     title: "Mobile Product — FinTrack",
     description:
       "A focused finance experience that makes everyday spending easier to understand.",
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     id: "3",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Packaging — Nurture Organics",
     description:
       "A warm, expressive packaging family inspired by West African botanicals.",
@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     id: "4",
-    url: "https://dribbble.com/",
+    url: "",
     title: "Design System — Atlas Pay",
     description:
       "A scalable interface language for a cross-border payments platform.",
@@ -65,7 +65,7 @@ export const projects = [
   },
   {
     id: "5",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Campaign — New Rituals",
     description:
       "A colour-led launch campaign for a modern personal-care collection.",
@@ -81,7 +81,7 @@ export const projects = [
   },
   {
     id: "6",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Editorial — Culture Journal 08",
     description:
       "A precise editorial system celebrating contemporary African creativity.",
@@ -97,7 +97,7 @@ export const projects = [
   },
   {
     id: "7",
-    url: "https://dribbble.com/",
+    url: "",
     title: "Web Experience — Common Ground",
     description:
       "A welcoming digital home for a community-led arts organisation.",
@@ -113,7 +113,7 @@ export const projects = [
   },
   {
     id: "8",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Identity — Northline Studio",
     description:
       "A typographic identity for an architecture practice built around clarity.",
@@ -129,7 +129,7 @@ export const projects = [
   },
   {
     id: "9",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Poster Series — After Hours",
     description:
       "A kinetic poster language for a season of independent music events.",
@@ -145,7 +145,7 @@ export const projects = [
   },
   {
     id: "10",
-    url: "https://dribbble.com/",
+    url: "",
     title: "Product Concept — Pulse Health",
     description:
       "A calm mobile dashboard for understanding personal wellness patterns.",
@@ -161,7 +161,7 @@ export const projects = [
   },
   {
     id: "11",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Annual Report — Marula Foundation",
     description:
       "A human, data-rich report shaped for clarity in print and digital formats.",
@@ -177,7 +177,7 @@ export const projects = [
   },
   {
     id: "12",
-    url: "https://www.behance.net/",
+    url: "",
     title: "Launch Film — Still Becoming",
     description:
       "Motion direction and social assets for an independent fashion label.",

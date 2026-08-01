@@ -586,7 +586,7 @@ textarea:focus-visible {
   vertical-align: top;
 }
 
-.project-card > a {
+.project-card__media {
   position: relative;
   display: block;
   height: 100%;
@@ -753,7 +753,7 @@ textarea:focus-visible {
   border-radius: 2px;
   box-shadow: var(--shadow);
   object-fit: cover;
-  object-position: center top;
+  object-position: center 18%;
 }
 
 .about__portrait-index {
