@@ -10,7 +10,7 @@ export const content = {
 
   social: {
     linkedin: "https://www.linkedin.com/in/oburoh-joshua-6a0612417",
-    instagram: "https://www.instagram.com/joshuaoburoh",
+    instagram: "https://www.instagram.com/oburohjoshua?igsh=MXF6eGRpejN3M3d5eA==",
     facebook: "https://www.facebook.com/share/1F7fH4AXBu/",
     tiktok: "https://www.tiktok.com/@bawooburoh0",
   },
